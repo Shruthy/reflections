@@ -5,6 +5,8 @@ git init initializes repository. A master branch is created, but the files in th
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+Staging area is where those files from the working dir that needs to be tracked and commit. working directory has all the files including those that need not be commit. you add only those files you want to commit to staging area. everything in staging area is treated as one package which is then commit to the repo. repository tracks the files that are commit where as staging area does not
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
